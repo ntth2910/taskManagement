@@ -1,0 +1,225 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+}
+.right {
+  position: absolute;
+  width: 260px;
+  min-width: 260px;
+  top: calc(50% - 20px);
+  right: 0;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  min-height: 40px;
+  flex: 0 1 ;
+}
+.column-layout {
+  width: 60px;
+  min-width: 60px;
+  padding: 10px 0 0;
+  background-color: rgba(0, 153, 255, 1);
+  min-height: 844px;
+  height: 100%;
+  align-items: center;
+  flex: 0 1 ;
+  position: relative;
+}
+.column-layout_1 {
+  width: calc(98.9% - 60px);
+  padding: 12px 0 0;
+  min-width: 1356px;
+  min-height: 844px;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.subheader {
+  width: 99.4%;
+  height: 50px;
+  min-width: 1348px;
+  min-height: 50px;
+  margin: 0 8px 0 0;
+  align-items: center;
+  flex: 0 1 ;
+  position: relative;
+}
+.prefix-container {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  position: relative;
+}
+.center {
+  width: 88px;
+  height: 36px;
+  min-width: 88px;
+  min-height: 36px;
+  margin: 0 0 0 370px;
+  justify-content: space-between;
+  flex: 0 1 ;
+  position: relative;
+}
+.row-layout {
+  height: calc(100% - 56px);
+  padding: 0 8px 0 0;
+  min-width: 1440px;
+  width: 100%;
+  min-height: 844px;
+  justify-content: space-between;
+  flex: 0 1 ;
+  position: relative;
+}
+.board {
+  height: calc(42.5% - 50px);
+  margin: 24px 0 0;
+  min-width: 1356px;
+  min-height: 304px;
+  width: 100%;
+  justify-content: space-between;
+  flex: 0 1 ;
+  position: relative;
+}
+.in-development {
+  height: 81.6%;
+  min-height: 248px;
+  justify-content: space-evenly;
+  width: 24.8%;
+  min-width: 336px;
+  background-color: rgba(0, 0, 0, 0.12);
+  align-items: center;
+  flex: 0 1 ;
+  position: relative;
+}
+.list-view {
+  min-height: 900px;
+  min-width: 1440px;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  flex: 0 1 ;
+  position: relative;
+}
+.column-layout_2 {
+  height: 63.2%;
+  min-height: 192px;
+  justify-content: space-evenly;
+  width: 24.8%;
+  min-width: 336px;
+  background-color: rgba(0, 0, 0, 0.12);
+  align-items: center;
+  flex: 0 1 ;
+  position: relative;
+}
+.to-do {
+  min-height: 304px;
+  justify-content: space-evenly;
+  width: 24.8%;
+  height: 100%;
+  min-width: 336px;
+  background-color: rgba(0, 0, 0, 0.12);
+  align-items: center;
+  flex: 0 1 ;
+  position: relative;
+}
+.column-layout_3 {
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  min-height: 40px;
+  position: relative;
+}
+.navigationnavbarelevated {
+  position: relative;
+  width: 100%;
+  height: max-content;
+}
+.project-members {
+  width: 141px;
+  color: rgba(0, 0, 0, 0.8657155797101449);
+  min-width: 141px;
+  flex: 0 1 ;
+  white-space: pre-wrap;
+  height: max-content;
+  position: relative;
+}
+.to-do_1 {
+  width: 14%;
+  min-width: 47px;
+  white-space: pre-wrap;
+  height: max-content;
+  position: relative;
+}
+.in-development_1 {
+  width: 40.8%;
+  min-width: 137px;
+  white-space: pre-wrap;
+  height: max-content;
+  position: relative;
+}
+.validation {
+  width: 26.2%;
+  min-width: 88px;
+  white-space: pre-wrap;
+  height: max-content;
+  position: relative;
+}
+.done {
+  width: 13.7%;
+  min-width: 46px;
+  white-space: pre-wrap;
+  height: max-content;
+  position: relative;
+}
+.avatar {
+  margin: 10px 0 0;
+  color: var(--igx-grays-800);
+  background-color: var(--igx-grays-400);
+  position: relative;
+}
+.icon {
+  width: max-content;
+  height: max-content;
+}
+.icon_1 {
+  margin: 0 0 0 1rem;
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+}
+.icon_2 {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  position: relative;
+}
+.avatar_1 {
+  color: var(--igx-grays-800);
+  background-color: var(--igx-grays-400);
+  position: relative;
+}
+.searchbar {
+  width: calc(25.799999999999997% - 88px);
+  height: max-content;
+  min-width: min-content;
+  flex: 0 1 ;
+  position: relative;
+}
+.icon-button {
+  position: relative;
+}
+.list {
+  position: relative;
+  width: 85.7%;
+  height: auto;
+}
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}

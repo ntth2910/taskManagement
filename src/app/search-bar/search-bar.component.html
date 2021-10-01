@@ -1,0 +1,66 @@
+<div class="search-bar column">
+  <igx-navbar class="navigationnavbarelevated">
+    <div igxNavbarTitle>My Kanban App</div>
+    <igx-icon font="material" [active]="true" class="icon_1">notifications</igx-icon>
+    <igx-icon font="material" [active]="true" class="icon_1">mail</igx-icon>
+    <igx-icon font="material" [active]="true" class="icon_1">account_circle</igx-icon>
+    <igx-icon font="material" [active]="true" class="icon_1">more_vert</igx-icon>
+  </igx-navbar>
+  <div class="row-layout row">
+    <div class="column-layout column">
+      <igx-avatar initials="HA" bgColor="var(--igx-grays-400)" [roundShape]="false" size="small" class="avatar_1"></igx-avatar>
+      <igx-avatar initials="BR" bgColor="var(--igx-grays-400)" [roundShape]="false" size="small" class="avatar"></igx-avatar>
+      <igx-avatar initials="LT" bgColor="var(--igx-grays-400)" [roundShape]="false" size="small" class="avatar"></igx-avatar>
+      <igx-avatar initials="WP" bgColor="var(--igx-grays-400)" [roundShape]="false" size="small" class="avatar"></igx-avatar>
+    </div>
+    <div class="column-layout_1 column">
+      <div class="subheader row">
+        <igx-input-group placeholder="Fintech Project" type="search" class="searchbar">
+          <igx-prefix>
+            <div class="column-layout_2 column">
+              <igx-icon font="material" [active]="true" class="icon_2">search</igx-icon>
+            </div>
+          </igx-prefix>
+          <label igxLabel for="inputField">Label</label>
+          <input type="Text" name="inputField" [required]="false" [disabled]="false" placeholder="Fintech Project" igxInput />
+        </igx-input-group>
+        <div class="center row">
+          <button igxButton="icon" type="icon" [disabled]="false" class="icon-button">
+            <igx-icon class="icon">dashboard</igx-icon>
+          </button>
+          <button igxButton="icon" type="icon" [disabled]="false" class="icon-button">
+            <igx-icon class="icon">list</igx-icon>
+          </button>
+        </div>
+        <div class="right row">
+          <p class="igx-typography__subtitle-1 project-members">Project Members:</p>
+          <igx-avatar initials="YT" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" class="avatar_1"></igx-avatar>
+          <igx-avatar initials="BR" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" class="avatar_1"></igx-avatar>
+          <button igxButton="icon" type="icon" [disabled]="false" class="icon-button">
+            <igx-icon class="icon">add</igx-icon>
+          </button>
+        </div>
+      </div>
+      <div class="search row">
+        <div class="left row">
+          <p class="label">Select boards to search</p>
+          <igx-checkbox labelPosition="after" [checked]="false" [disabled]="false" class="checkbox">All</igx-checkbox>
+          <igx-checkbox labelPosition="after" [checked]="false" [disabled]="false" class="checkbox">Active</igx-checkbox>
+          <igx-checkbox labelPosition="after" [checked]="false" [disabled]="false" class="checkbox">Archived</igx-checkbox>
+          <igx-input-group placeholder="Label/Placeholder" type="search" class="searchbar_1">
+            <igx-prefix>
+              <div class="column-layout_2 column">
+                <igx-icon font="material" [active]="true" class="icon_2">search</igx-icon>
+              </div>
+            </igx-prefix>
+            <label igxLabel for="inputField">Label</label>
+            <input type="Text" name="inputField" [required]="false" [disabled]="false" placeholder="Label/Placeholder" igxInput />
+          </igx-input-group>
+        </div>
+        <button igxButton="raised" [disabled]="false" class="button">
+          <span>SEARCH NOW</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

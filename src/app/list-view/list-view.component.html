@@ -1,0 +1,134 @@
+<div class="list-view column">
+  <igx-navbar class="navigationnavbarelevated">
+    <div igxNavbarTitle>My Kanban App</div>
+    <igx-icon font="material" [active]="true" class="icon_1">notifications</igx-icon>
+    <igx-icon font="material" [active]="true" class="icon_1">mail</igx-icon>
+    <igx-icon font="material" [active]="true" class="icon_1">account_circle</igx-icon>
+    <igx-icon font="material" [active]="true" class="icon_1">more_vert</igx-icon>
+  </igx-navbar>
+  <div class="row-layout row">
+    <div class="column-layout column">
+      <igx-avatar initials="HA" bgColor="var(--igx-grays-400)" [roundShape]="false" size="small" class="avatar_1"></igx-avatar>
+      <igx-avatar initials="BR" bgColor="var(--igx-grays-400)" [roundShape]="false" size="small" class="avatar"></igx-avatar>
+      <igx-avatar initials="LT" bgColor="var(--igx-grays-400)" [roundShape]="false" size="small" class="avatar"></igx-avatar>
+      <igx-avatar initials="WP" bgColor="var(--igx-grays-400)" [roundShape]="false" size="small" class="avatar"></igx-avatar>
+    </div>
+    <div class="column-layout_1 column">
+      <div class="subheader row">
+        <igx-input-group placeholder="Fintech Project" type="search" class="searchbar">
+          <igx-prefix>
+            <div class="prefix-container column">
+              <igx-icon font="material" [active]="true" class="icon_2">search</igx-icon>
+            </div>
+          </igx-prefix>
+          <label igxLabel for="inputField">Label</label>
+          <input type="Text" name="inputField" [required]="false" [disabled]="false" placeholder="Fintech Project" igxInput />
+        </igx-input-group>
+        <div class="center row">
+          <button igxButton="icon" type="icon" [disabled]="false" class="icon-button">
+            <igx-icon class="icon">dashboard</igx-icon>
+          </button>
+          <button igxButton="icon" type="icon" [disabled]="false" class="icon-button">
+            <igx-icon class="icon">list</igx-icon>
+          </button>
+        </div>
+        <div class="right row">
+          <p class="igx-typography__subtitle-1 project-members">Project Members:</p>
+          <igx-avatar initials="YT" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" class="avatar_1"></igx-avatar>
+          <igx-avatar initials="BR" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" class="avatar_1"></igx-avatar>
+          <button igxButton="icon" type="icon" [disabled]="false" class="icon-button">
+            <igx-icon class="icon">add</igx-icon>
+          </button>
+        </div>
+      </div>
+      <div class="board row">
+        <div class="to-do column">
+          <h6 class="to-do_1">To do</h6>
+          <igx-list class="list">
+            <igx-list-item>
+              <div igxListThumbnail class="column-layout_3 column">
+                <igx-avatar initials="NA" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" class="avatar_1"></igx-avatar>
+              </div>
+              <h4 igxListLineTitle>Preview App</h4>
+            </igx-list-item>
+            <igx-list-item>
+              <div igxListThumbnail class="column-layout_3 column">
+                <igx-avatar initials="IK" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" class="avatar_1"></igx-avatar>
+              </div>
+              <h4 igxListLineTitle>Indigo Cloud integration</h4>
+            </igx-list-item>
+            <igx-list-item>
+              <div igxListThumbnail class="column-layout_3 column">
+                <igx-avatar initials="GA" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" class="avatar_1"></igx-avatar>
+              </div>
+              <h4 igxListLineTitle>Create brand guideline</h4>
+            </igx-list-item>
+            <igx-list-item>
+              <div igxListThumbnail class="column-layout_3 column">
+                <igx-avatar initials="SB" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" class="avatar_1"></igx-avatar>
+              </div>
+              <h4 igxListLineTitle>Input update</h4>
+            </igx-list-item>
+          </igx-list>
+        </div>
+        <div class="in-development column">
+          <h6 class="in-development_1">In Development</h6>
+          <igx-list class="list">
+            <igx-list-item>
+              <div igxListThumbnail class="column-layout_3 column">
+                <igx-avatar initials="S" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" class="avatar_1"></igx-avatar>
+              </div>
+              <h4 igxListLineTitle>Preview app</h4>
+            </igx-list-item>
+            <igx-list-item>
+              <div igxListThumbnail class="column-layout_3 column">
+                <igx-avatar initials="VB" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" class="avatar_1"></igx-avatar>
+              </div>
+              <h4 igxListLineTitle>Data binding grid</h4>
+            </igx-list-item>
+            <igx-list-item>
+              <div igxListThumbnail class="column-layout_3 column">
+                <igx-avatar initials="IK" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" class="avatar_1"></igx-avatar>
+              </div>
+              <h4 igxListLineTitle>Copy-Paste update</h4>
+            </igx-list-item>
+          </igx-list>
+        </div>
+        <div class="column-layout_2 column">
+          <h6 class="validation">Validation</h6>
+          <igx-list class="list">
+            <igx-list-item>
+              <div igxListThumbnail class="column-layout_3 column">
+                <igx-avatar initials="CP" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" class="avatar_1"></igx-avatar>
+              </div>
+              <h4 igxListLineTitle>App Library</h4>
+            </igx-list-item>
+            <igx-list-item>
+              <div igxListThumbnail class="column-layout_3 column">
+                <igx-avatar initials="AS" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" class="avatar_1"></igx-avatar>
+              </div>
+              <h4 igxListLineTitle>Update samples</h4>
+            </igx-list-item>
+          </igx-list>
+        </div>
+        <div class="column-layout_2 column">
+          <h6 class="done">Done</h6>
+          <igx-list class="list">
+            <igx-list-item>
+              <div igxListThumbnail class="column-layout_3 column">
+                <igx-avatar initials="GA" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" class="avatar_1"></igx-avatar>
+              </div>
+              <h4 igxListLineTitle>Sketch Parser</h4>
+            </igx-list-item>
+            <igx-list-item>
+              <div igxListThumbnail class="column-layout_3 column">
+                <igx-avatar initials="SA" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" class="avatar_1"></igx-avatar>
+              </div>
+              <h4 igxListLineTitle>Onboarding experience</h4>
+            </igx-list-item>
+          </igx-list>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
